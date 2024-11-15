@@ -2,7 +2,7 @@
 import React,{useState} from 'react'
 import { useRouter } from 'next/navigation';
 
-import { Video, Users, User } from 'lucide-react';
+import { Video, Users } from 'lucide-react';
 const JoinRoom = () => {
 
     const router = useRouter();

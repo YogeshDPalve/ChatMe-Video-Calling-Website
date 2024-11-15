@@ -1,9 +1,7 @@
 'use client'
-import React, { useState, useEffect, useRef, useId } from 'react'
+import React, {useEffect, useRef} from 'react'
 import { ZegoUIKitPrebuilt } from '@zegocloud/zego-uikit-prebuilt';
 import { useSearchParams } from 'next/navigation'
-import { Container } from 'postcss';
-
 
 
 interface Props {
